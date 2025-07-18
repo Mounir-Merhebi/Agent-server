@@ -8,9 +8,6 @@ use App\Models\Agent;
 
 class AgentSeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     */
     public function run(): void
     {
         Agent::factory()->count(10)->create();
